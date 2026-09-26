@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f4f6f8"/>
+  <g transform="translate(15, 65)">
+    <path d="M 0 145 L 370 145" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- Stock -->
+    <path d="M 15 80 L 85 87 L 105 117 L 25 125 Z" fill="#18222c"/>
+    <path d="M 10 79 L 18 80 L 28 125 L 20 125 Z" fill="#a67c2e"/>
+    
+    <!-- Receiver -->
+    <rect x="105" y="85" width="95" height="34" fill="#1e293b" rx="2"/>
+    <rect x="120" y="91" width="45" height="14" fill="#0f172a" rx="1"/>
+    
+    <!-- Trigger Guard & Trigger -->
+    <path d="M 115 119 C 115 139 140 139 140 119" stroke="#18222c" stroke-width="4" fill="none"/>
+    <path d="M 127 119 Q 133 129 127 133" stroke="#a67c2e" stroke-width="3" fill="none"/>
+    
+    <!-- Barrel & Magazine Tube -->
+    <rect x="200" y="87" width="160" height="12" fill="#0f172a"/>
+    <rect x="200" y="101" width="145" height="10" fill="#334155"/>
+    <circle cx="345" cy="106" r="5" fill="#a67c2e"/>
+    
+    <!-- Pump Forend (Ribbed) -->
+    <rect x="225" y="98" width="60" height="18" fill="#18222c" rx="2"/>
+    <line x1="235" y1="98" x2="235" y2="116" stroke="#5a6673" stroke-width="2"/>
+    <line x1="243" y1="98" x2="243" y2="116" stroke="#5a6673" stroke-width="2"/>
+    <line x1="251" y1="98" x2="251" y2="116" stroke="#5a6673" stroke-width="2"/>
+    <line x1="259" y1="98" x2="259" y2="116" stroke="#5a6673" stroke-width="2"/>
+    <line x1="267" y1="98" x2="267" y2="116" stroke="#5a6673" stroke-width="2"/>
+    <line x1="275" y1="98" x2="275" y2="116" stroke="#5a6673" stroke-width="2"/>
+    
+    <!-- Front Bead Sight -->
+    <circle cx="355" cy="84" r="3" fill="#a67c2e"/>
+  </g>
+</svg>

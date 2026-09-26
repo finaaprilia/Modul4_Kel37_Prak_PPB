@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#f4f6f8"/>
+  <g transform="translate(18, 55)">
+    <path d="M 0 160 L 364 160" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- Stock (Wood/Polymer) -->
+    <path d="M 20 100 L 80 95 L 90 125 L 30 135 Z" fill="#a67c2e"/>
+    <path d="M 15 98 L 25 97 L 35 136 L 25 137 Z" fill="#18222c"/>
+    
+    <!-- Receiver -->
+    <rect x="85" y="90" width="110" height="36" fill="#18222c" rx="2"/>
+    <rect x="100" y="96" width="30" height="12" fill="#334155"/>
+    <circle cx="165" cy="108" r="4" fill="#a67c2e"/>
+    
+    <!-- Pistol Grip -->
+    <path d="M 105 126 L 125 126 L 115 175 Q 110 180 98 178 L 92 168 Z" fill="#a67c2e"/>
+    
+    <!-- Trigger & Guard -->
+    <path d="M 125 126 C 125 145 145 145 145 126" stroke="#18222c" stroke-width="4" fill="none"/>
+    <path d="M 135 126 Q 140 136 135 140" stroke="#18222c" stroke-width="3" fill="none"/>
+    
+    <!-- Curved Magazine -->
+    <path d="M 148 126 Q 165 170 195 200 L 170 210 Q 140 175 128 126 Z" fill="#1e293b"/>
+    <path d="M 153 135 Q 167 170 190 198" stroke="#334155" stroke-width="3" fill="none"/>
+    
+    <!-- Handguard / Gas Tube -->
+    <path d="M 195 92 L 275 95 L 270 118 L 195 118 Z" fill="#a67c2e"/>
+    <line x1="200" y1="100" x2="270" y2="102" stroke="#18222c" stroke-width="3"/>
+    
+    <!-- Barrel & Gas Block -->
+    <rect x="270" y="98" width="80" height="10" fill="#0f172a"/>
+    <path d="M 265 88 L 275 88 L 275 98 L 265 98 Z" fill="#18222c"/>
+    <!-- Front sight -->
+    <path d="M 330 85 L 340 85 L 342 98 L 328 98 Z" fill="#18222c"/>
+    <rect x="334" y="78" width="4" height="7" fill="#a67c2e"/>
+    <!-- Muzzle -->
+    <rect x="350" y="96" width="12" height="14" fill="#334155" rx="1"/>
+  </g>
+</svg>
