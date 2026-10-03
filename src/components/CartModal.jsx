@@ -109,26 +109,31 @@ function CartModal({ isOpen, onClose, cart, onUpdateQuantity, onRemoveItem, onCl
                           type="button"
                           className="qty-btn"
                           onClick={() => onUpdateQuantity(gun.id, -1)}
+                          aria-label={`Kurangi kuantitas ${gun.name}`}
+                          title="Kurangi kuantitas (-1)"
                         >
                           -
                         </button>
-                        <span className="qty-val">{quantity}</span>
+                        <span className="qty-val" aria-label={`Kuantitas: ${quantity}`}>{quantity}</span>
                         <button
                           type="button"
                           className="qty-btn"
                           onClick={() => onUpdateQuantity(gun.id, 1)}
+                          aria-label={`Tambah kuantitas ${gun.name}`}
+                          title="Tambah kuantitas (+1)"
                         >
                           +
                         </button>
                       </div>
-                      <div className="cart-item-subtotal">
+                      <div className="cart-item-subtotal" title="Subtotal">
                         ${(gun.price * quantity).toLocaleString()}
                       </div>
                       <button
                         type="button"
                         className="cart-remove-btn"
                         onClick={() => onRemoveItem(gun.id)}
-                        title="Remove item"
+                        title={`Hapus ${gun.name} dari keranjang`}
+                        aria-label={`Hapus ${gun.name}`}
                       >
                         &times;
                       </button>
@@ -138,7 +143,7 @@ function CartModal({ isOpen, onClose, cart, onUpdateQuantity, onRemoveItem, onCl
 
                 <div className="cart-footer">
                   <div className="cart-total">
-                    <span>Total:</span>
+                    <span>Total Harga ({totalItems} item):</span>
                     <span className="total-price">${totalPrice.toLocaleString()}</span>
                   </div>
                   <div className="cart-actions">

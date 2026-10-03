@@ -19,8 +19,17 @@ function Header({ tab, onTab, cartCount, favoriteCount, onOpenCart }) {
           ))}
         </nav>
 
-        <button type="button" className="cart-badge-btn" onClick={onOpenCart}>
-          🛒 Cart {cartCount > 0 && <span className="badge">{cartCount}</span>}
+        <button
+          type="button"
+          className="cart-badge-btn"
+          onClick={onOpenCart}
+          aria-label={`Shopping cart with ${cartCount} items`}
+        >
+          <span className="cart-icon">🛒</span>
+          <span className="cart-label">Cart</span>
+          <span className="badge" title={`${cartCount} items in cart`}>
+            {cartCount}
+          </span>
         </button>
       </div>
     </header>
